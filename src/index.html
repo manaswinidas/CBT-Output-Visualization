@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>CBT OUTPUT VISUALIZATION</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">CBT OUTPUT VISUALIZATION</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">Home</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+<h1>Write Job Clat Percentile Values</h1>
+<p>CBT stands for Ceph Benchmarking tool. This is the visualization of the output of write benchmarking clat percentile from fio_json.json</p>
+  <center>
+    <div class="chart-block" id="chart"></div>
+  </center>
+  <p>We have taken the values of clat percentile in the X axis and its respective values in the Y axis</p>
+  <script src="/assets/bundle.js"></script>
+  </div>
+</body>
+
+</html>
